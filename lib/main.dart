@@ -29,6 +29,8 @@ class HelloPage extends StatelessWidget {
   static const String nama = 'Sebastian Saut Marulitua Sinaga';
   static const String nim = '4242550005';
   static const String kelas = 'Ilmu Komputer D 2024';
+  static const String fakultas = 'Fakultas Matematika dan Ilmu Pengetahuan Alam';
+  static const String universitas = 'Universitas Negeri Medan';
 
   @override
   Widget build(BuildContext context) {
@@ -69,6 +71,16 @@ class HelloPage extends StatelessWidget {
                       leading: Icon(Icons.school),
                       title: Text('Kelas'),
                       subtitle: Text(kelas),
+                    ),
+                    ListTile(
+                      leading: Icon(Icons.account_balance),
+                      title: Text('Fakultas'),
+                      subtitle: Text(fakultas),
+                    ),
+                    ListTile(
+                      leading: Icon(Icons.location_city),
+                      title: Text('Universitas'),
+                      subtitle: Text(universitas),
                     ),
                   ],
                 ),
